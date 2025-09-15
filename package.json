@@ -1,5 +1,5 @@
 {
-  "name": "express-app",
+  "name": "api-proxy-server",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
