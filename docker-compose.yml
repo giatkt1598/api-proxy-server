@@ -3,7 +3,7 @@ services:
   api-proxy-server:
     build: .
     container_name: api-proxy-server
-    restart: always
+    restart: unless-stopped
     ports:
       - "20500:20500"
       - "20501:20501"
