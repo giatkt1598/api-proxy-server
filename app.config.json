@@ -1,7 +1,15 @@
 {
-    "originUrl": "https://localhost:44339",
-    "proxyPort": 43450,
-    "headers": {
+    "originUrl": "https://jsonplaceholder.typicode.com",
+    "ssl": true,
+    "requestHeaders": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    "responseHeaders": {
+        "access-control-allow-origin": "*"
+    },
+    "mappingPorts": {
+        "20500": "/",
+        "20501": "/posts",
+        "20502": "/users"
     }
 }

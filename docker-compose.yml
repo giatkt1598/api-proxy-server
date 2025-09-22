@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api-proxy-server:
+    build: .
+    container_name: api-proxy-server
+    restart: always
+    ports:
+      - "20500:20500"
+      - "20501:20501"
+      - "20502:20502"
+    environment:
+      - NODE_ENV=production

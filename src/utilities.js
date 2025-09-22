@@ -2,9 +2,11 @@ import fs from 'fs';
 
 /**
  * @typedef {Object} AppConfig
- * @property {string} originUrl
  * @property {number} proxyPort
- * @property {Object} headers
+ * @property {Object} requestHeaders
+ * @property {Object} responseHeaders
+ * @property {boolean} ssl
+ * @property {{[port: string]: string}} mappingPorts
  */
 
 /**
